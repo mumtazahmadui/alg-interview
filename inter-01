@@ -1,1 +1,57 @@
-test
+```
+1­ d
+
+2­ var hasOwnProperty = Object.prototype.hasOwnProperty;
+hasOwnProperty.call(obj, <key>);
+3­ function func(x){
+return 10­x;
+}
+what about 21/x (one of solution is x^4 also, answer may vary)
+4­ answer may vary
+5­ function parent(id){
+this.id = id
+}
+function child(id, name){
+parent.call(this, id);
+this.name = name;
+}
+var obj = new child(6, ‘john’);
+6­ <a href=”xyz.html” data­ng­click=”onAnchorClick($event)”>
+$scope.onAnchorClick = function(e){
+e.preventDefault();
+console.log(‘anchor clicked, event: ’+ e);
+}
+7­ we can check the loops in candidate’s code
+8­ c 
+9­ d
+10­ d
+11­a
+12­false
+13­ subjective answer
+14 - underfined , number
+15 - d
+16 - a
+17 - subjective answer
+18 - subjective answer
+19 - 102 is greater . 99 is greater
+20 - b
+21­ b
+22­ answer may vary
+23­ function sum(){
+var sum=0;
+for(var i=0; i<arguments.length; i++){
+if(typeof(arguments[i])==="number"){
+sum=sum+arguments[i];
+}
+}
+return sum;
+}
+24­b
+25­c
+26­ c
+27­a
+28­a
+29­answer may vary
+30­c
+
+```
